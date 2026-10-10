@@ -1,0 +1,9 @@
+{
+	"id": "note-shuttle",
+	"name": "Note Shuttle",
+	"version": "0.1.0",
+	"minAppVersion": "1.14.4",
+	"description": "Bundle selected notes into one text with secrets masked, and copy it for pasting into an AI chat. No network, no LLM.",
+	"author": "takosasi-dev",
+	"isDesktopOnly": false
+}

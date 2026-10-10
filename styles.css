@@ -1,0 +1,66 @@
+/* Note Shuttle: 「パックの中身」モーダルと実測モーダル */
+.note-shuttle-modal .ns-summary {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	margin-bottom: var(--size-4-2);
+}
+.note-shuttle-modal .ns-warn {
+	color: var(--text-error);
+}
+.note-shuttle-modal .ns-status {
+	color: var(--text-muted);
+}
+.note-shuttle-modal .ns-filter {
+	width: 100%;
+}
+.note-shuttle-modal .ns-candidates {
+	display: flex;
+	flex-direction: column;
+	max-height: 30vh;
+	overflow-y: auto;
+	margin: var(--size-4-1) 0;
+}
+.note-shuttle-modal .ns-candidate {
+	justify-content: flex-start;
+	text-align: left;
+	white-space: normal;
+	height: auto;
+	margin: 1px 0;
+}
+.note-shuttle-modal .ns-list {
+	margin: var(--size-4-2) 0;
+}
+.note-shuttle-modal .ns-row {
+	display: grid;
+	grid-template-columns: auto 1fr auto auto;
+	gap: var(--size-4-2);
+	align-items: baseline;
+	padding: 2px 0;
+}
+.note-shuttle-modal .ns-path {
+	word-break: break-all;
+}
+.note-shuttle-modal .ns-meta {
+	color: var(--text-muted);
+	font-size: var(--font-ui-smaller);
+	white-space: nowrap;
+}
+.note-shuttle-modal .ns-section-title {
+	font-weight: var(--font-semibold);
+	margin-top: var(--size-4-2);
+}
+.note-shuttle-modal .ns-breakdown li,
+.note-shuttle-modal .ns-sections li {
+	word-break: break-all;
+}
+.note-shuttle-measure .ns-measure-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--size-4-2);
+	align-items: center;
+	margin: var(--size-4-1) 0;
+}
+.note-shuttle-measure .ns-measure-result {
+	color: var(--text-muted);
+}

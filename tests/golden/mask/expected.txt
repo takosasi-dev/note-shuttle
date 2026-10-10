@@ -1,0 +1,26 @@
+<!-- NoteShuttle pack v1 -->
+# 文脈パック: adhoc
+
+生成: 2026-10-10 12:30 / ノート 1本 / 219文字 / 推定トークン 約0(概算) / 伏せ字 7件(anthropic 1, openai 1, github 1, aws_key 1, discord 1, private_key 1, literal 1)
+
+このファイルは Obsidian vault のノートを束ねたもの。各 <note> の path は vault 直下からの相対パス、updated は最終更新日時。埋め込み・画像は [埋め込み: 名前] に置き換えてある。
+
+| # | path | updated | 文字数 |
+|---|---|---|---|
+| 1 | notes/秘密の形.md | 2026-10-10 09:00 | 219 |
+
+<note path="notes/秘密の形.md" updated="2026-10-10 09:00">
+# 秘密の形の検体(すべて偽物)
+
+anthropic: [MASKED:anthropic]
+openai: [MASKED:openai]
+github: [MASKED:github]
+discord: [MASKED:discord]
+住所: [MASKED:literal]
+
+```bash
+export AWS_ACCESS_KEY_ID=[MASKED:aws_key]
+```
+
+[MASKED:private_key]
+</note>

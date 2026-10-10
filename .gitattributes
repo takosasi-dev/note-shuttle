@@ -1,0 +1,4 @@
+* text=auto eol=lf
+# 検体はバイト列のまま持つ(CRLF・BOM・0xFF を含む物がある。§8.5 の検体(3)・AC-17)
+tests/golden/** -text
+tests/fixtures/** -text
